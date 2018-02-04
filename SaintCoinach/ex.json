@@ -7481,6 +7481,42 @@
       ]
     },
     {
+      "sheet": "QuickChat",
+      "defaultColumn": "Text",
+      "definitions": [
+        {
+          "index": 0,
+          "name": "Text{output}"
+        },
+        {
+          "index": 1,
+          "name": "Icon1",
+          "converter": {
+            "type": "icon",
+            "target": "Action"
+          }
+        },          
+          {
+          "index": 3,
+          "name": "Description{Action}",
+          "converter": {
+            "type": "link",
+            "target": "QuickChatTransient"
+          }         
+         }
+        ]
+    },
+     {
+      "sheet": "QuickChatTransient",
+      "defaultColumn": "Description",
+      "definitions": [
+        {
+          "index": 0,
+          "name": "Description"
+        }
+      ]
+    },
+    {
       "sheet": "Race",
       "defaultColumn": "Feminine",
       "definitions": [
