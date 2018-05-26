@@ -4510,6 +4510,10 @@
           "name": "Plural"
         },
         {
+          "index": 4,
+          "name": "StartsWithVowel"
+        },
+        {
           "index": 5,
           "name": "Rarity"
         },
