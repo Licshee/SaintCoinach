@@ -516,22 +516,6 @@
       ]
     },
     {
-      "sheet": "AddonHud",
-      "definitions": [
-        {
-          "name": "Long"
-        },
-        {
-          "index": 1,
-          "name": "Short"
-        },
-        {
-          "index": 2,
-          "name": "Function"
-        }
-      ]
-    },
-    {
       "sheet": "AdventureExPhase",
       "definitions": [
         {
@@ -3340,6 +3324,14 @@
           "name": "Plural"
         },
         {
+          "index": 5,
+          "name": "StartsWithVowel"
+        },
+        {
+          "index": 6,
+          "name": "Rarity"
+        },
+        {
           "index": 9,
           "name": "Name"
         },
@@ -3386,6 +3378,14 @@
         {
           "index": 3,
           "name": "Plural"
+        },
+        {
+          "index": 5,
+          "name": "StartsWithVowel"
+        },
+        {
+          "index": 6,
+          "name": "Rarity"
         },
         {
           "index": 9,
