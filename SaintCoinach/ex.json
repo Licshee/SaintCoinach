@@ -3249,44 +3249,8 @@
           }
         },
         {
-          "index": 1,
-          "name": "MenuOrder"
-        },
-        {
           "index": 2,
           "name": "RequiredAmount"
-        },
-        {
-          "index": 4,
-          "name": "ExpMultiplier"
-        },
-        {
-          "index": 6,
-          "name": "GilRward"
-        },
-        {
-          "index": 7,
-          "name": "LevelUnlock"
-        },
-        {
-          "index": 8,
-          "name": "HowTo",
-          "converter": {
-            "type": "link",
-            "target": "HowTo"
-          }
-        },
-        {
-          "index": 9,
-          "name": "Name"
-        },
-        {
-          "index": 10,
-          "name": "Description"
-        },
-        {
-          "index": 11,
-          "name": "ExpCap"
         }
       ]
     },
@@ -6841,22 +6805,6 @@
           }
         },
         {
-          "index": 6,
-          "name": "WinBGM",
-          "converter": {
-            "type": "link",
-            "target": "BGM"
-          }
-        },
-        {
-          "index": 7,
-          "name": "Cutscene",
-          "converter": {
-            "type": "link",
-            "target": "Cutscene"
-          }
-        },
-        {
           "index": 9,
           "name": "TerritoryType",
           "converter": {
@@ -6870,19 +6818,11 @@
         },
         {
           "index": 13,
-          "name": "InstanceContentTextData{Boss}{Start}",
-          "converter": {
-            "type": "link",
-            "target": "InstanceContentTextData"
-          }
+          "name": "InstanceContentTextData{Boss}{Start}"
         },
         {
           "index": 14,
-          "name": "InstanceContentTextData{Boss}{End}",
-          "converter": {
-            "type": "link",
-            "target": "InstanceContentTextData"
-          }
+          "name": "InstanceContentTextData{Boss}{End}"
         },
         {
           "index": 15,
@@ -6921,10 +6861,6 @@
           "name": "NewPlayerBonusB"
         },
         {
-          "index": 23,
-          "name": "FinalBossExp"
-        },
-        {
           "index": 24,
           "name": "FinalBossCurrencyA"
         },
@@ -6935,19 +6871,6 @@
         {
           "index": 26,
           "name": "FinalBossCurrencyC"
-        },
-        {
-          "index": 27,
-          "type": "repeat",
-          "count": 5,
-          "definition": {
-            "type": "group",
-            "members": [
-              {
-                "name": "BossExp"
-              }
-            ]
-          }
         },
         {
           "index": 32,
@@ -6989,23 +6912,11 @@
           }
         },
         {
-          "index": 47,
-          "name": "InstanceClearExp"
-        },
-        {
           "index": 52,
           "name": "InstanceContentBuff",
           "converter": {
             "type": "link",
             "target": "InstanceContentBuff"
-          }
-        },
-        {
-          "index": 53,
-          "name": "ReqInstance",
-          "converter": {
-            "type": "link",
-            "target": "InstanceContent"
           }
         },
         {
@@ -11459,14 +11370,6 @@
           }
         },
         {
-          "index": 1862,
-          "name": "Quest{Unlock}",
-          "converter": {
-            "type": "link",
-            "target": "Quest"
-          }
-        },
-        {
           "index": 1863,
           "name": "Quest{Shop}",
           "converter": {
@@ -11982,6 +11885,14 @@
         {
           "index": 3,
           "name": "Level"
+        },
+        {
+          "index": 4,
+          "name": "ScenarioTreeTipsQuest",
+          "converter": {
+            "type": "link",
+            "target": "ScenarioTreeTipsQuest"
+          }
         },
         {
           "index": 5,
