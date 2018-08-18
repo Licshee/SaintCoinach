@@ -31,7 +31,7 @@
             "type": "link",
             "target": "Title"
           }
-        },
+        }
         {
           "index": 5,
           "name": "Item",
